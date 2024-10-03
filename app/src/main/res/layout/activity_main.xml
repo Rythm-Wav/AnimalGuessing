@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha=".95"
+    android:background="@drawable/symphony"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha=".9"
+        android:background="#456BAB"
+        android:text="Guess which animal has this scientific name!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha=".97"
+        android:background="#A6D5EA"
+        android:backgroundTint="#90A4C7"
+        android:text="Haliaeetus Leucocephalus
+"
+        android:textAlignment="center"
+        android:textColor="#050101"
+        android:textSize="24sp"
+        app:autoSizeTextType="none" />
+
+    <Button
+        android:id="@+id/firstBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0D0D0E"
+        android:shadowColor="#FFFFFF"
+        android:text="Press to see animals!"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:rippleColor="#FFFFFF"
+        app:strokeColor="#FFFFFF" />
+
+</LinearLayout>
